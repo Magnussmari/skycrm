@@ -1,0 +1,66 @@
+/* SkyCRM Styles - jón */
+/* some of this works, some doesnt, good luck */
+
+body {
+    /* overridden by inline styles anyway */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* jón: i copied this from stackoverflow */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th {
+    background: #2980b9;
+    color: white;
+    padding: 12px 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background: #f5f5f5;
+}
+
+.btn {
+    background: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.btn:hover {
+    background: #1a5276;
+}
+
+/* !important because inline styles keep winning */
+.header h1 {
+    margin: 0 !important;
+    font-size: 28px !important;
+}
+
+/* dead css below */
+.sidebar { width: 250px; float: left; background: #333; color: white; }
+.sidebar-link { display: block; padding: 10px; color: white; }
+.modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 999; }
+.modal { background: white; width: 500px; margin: 100px auto; padding: 20px; border-radius: 5px; }
+#loading-spinner { display: none; }
+.v2-feature { display: none; /* jón: hiding v2 stuff for now */ }
