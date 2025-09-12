@@ -1,6 +1,6 @@
 {
   "name": "skycrm",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "crm for sky tours ehf",
   "main": "server.js",
   "scripts": {
@@ -9,7 +9,9 @@
   "dependencies": {
     "express": "^4.18.2",
     "body-parser": "^1.20.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.0",
+    "uuid": "^9.0.0"
   },
   "author": "jon@skytours.is",
   "license": "ISC"
