@@ -535,3 +535,4 @@ class BookingEngine {
 // keys
 // paging
 // paging broke
+// stats
