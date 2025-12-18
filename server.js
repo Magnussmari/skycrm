@@ -536,3 +536,4 @@ class BookingEngine {
 // paging
 // paging broke
 // stats
+// cache
