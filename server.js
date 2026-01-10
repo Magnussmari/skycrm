@@ -538,3 +538,4 @@ class BookingEngine {
 // stats
 // cache
 // more customers
+// bookings semicolon
