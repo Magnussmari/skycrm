@@ -542,3 +542,4 @@ class BookingEngine {
 // negative price
 // crash handler
 // dead code
+// Bjarki warning
